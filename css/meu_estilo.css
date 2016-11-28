@@ -1,0 +1,105 @@
+body{
+  background: transparent url("http://www.stripegenerator.com/generators/generate_stripes.php?fore=BDBBBB&h=30&w=5&p=11&back1=ffffff&back2=ff0000&gt=0&d=0&shadow=0&") repeat scroll 0% 0%;
+}
+.margin-bottom{
+  margin-bottom: 10px;
+}
+.bt-criar {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.borders {
+  border-left: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  min-height: 210px;
+}
+.borders:hover {
+  border-left: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.btn.btn-primary.bt-vota {
+    width: 100%;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn.btn-primary.bt-vota:hover {
+    background: #fff ;
+    color: #000;
+    border: 1px solid #000;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn.btn-primary.bt-vota:focus {
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.criar_enq > h2 {
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+.index_css {
+  padding-bottom: 20px;
+  border-bottom: 5px solid #000;
+}
+.index_css > .col-md-12 > center > h1 {
+  margin-top: 5px;
+}
+.bt-criar {
+    font-size: 25px;
+    padding: 5px 5%;
+    font-weight: bolder;
+    margin-top: 23px;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 1px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.bt-criar:hover {
+    background: #fff;
+    padding: 5px 10%;
+    border: 1px solid #000;
+    color: #000;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.bt-criar:focus {
+  font-size: 25px;
+  padding: 5px 5%;
+  font-weight: bolder;
+  margin-top: 23px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 1px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footer_border {
+  background-color: #fff;
+  border-top: 5px solid #000;
+  padding: 20px;
+}
+.footer > p {
+  margin-top: 12px;
+}

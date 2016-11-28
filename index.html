@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Encatman</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/meu_estilo.css" rel="stylesheet">
+
+  </head>
+  <body data-ng-app="App">
+      <header>
+        <div class="container-fluid" style="background-color: #fff;">
+          <br>
+          <div class="row index_css">
+            <div class="col-md-12">
+              <center>
+                <i class="fa fa-superpowers fa-5x" aria-hidden="true"></i>
+                <h1>Encatman</h1>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="container" style="background-color: #fff; padding: 0 55px;">
+          <main ng-view></main>
+        </div>
+      </header>
+      <footer>
+        <div class="container-fluid footer_border">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 footer">
+                <p>Site Produzido por: Lucas Kolecha, Gabriel de Osti, Vitor Tymniak</p>
+              </div>
+              <div class="col-md-2">
+                  <center>
+                    <i class="fa fa-superpowers fa-3x" aria-hidden="true"></i>
+                  </center>
+                </div>
+                <div class="col-md-5 footer">
+                  <p style="float:right;">
+                    Site Multiplataforma: <i class="fa fa-television" aria-hidden="true"></i> | <i class="fa fa-desktop" aria-hidden="true"></i> | <i class="fa fa-laptop" aria-hidden="true"></i> | <i class="fa fa-tablet" aria-hidden="true"></i> | <i class="fa fa-mobile" aria-hidden="true"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.2.32/angular-route.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

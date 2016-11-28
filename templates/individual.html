@@ -1,0 +1,25 @@
+<br>
+<br>
+<div class="row">
+    <div class="col-md-12">
+      <center>
+        <img src="{{desc_enquete.urlImagem}}" class="img-responsive">
+      </center>
+      <h1> {{ desc_enquete.titulo }} </h1>
+
+      <p> {{ desc_enquete.texto }} </p>
+      <br>
+      <br>
+      <center>
+        <h2>Vote Agora Mesmo</h2>
+      </center>
+      <hr>
+      <br>
+      <button class="btn btn-primary bt-vota" ng-repeat="desc in desc_enquete.opcoes" ng-click="responde(desc)"> {{desc.texto}}</button>
+      <br>
+      <center>
+        {{ status }}
+      </center>
+    </div>
+</div>
+<br>

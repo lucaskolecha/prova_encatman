@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-md-12">
+    <center>
+      <a href="#/novo/"><button class="btn btn-primary bt-criar"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nova Enquete</button></a>
+    </center>
+  </div>
+</div>
+<br>
+<br>
+<div class="row margin-bottom borders" data-ng-repeat="enquete in enquetes.values">
+  <a href="#/votar/{{enquete.id}}">
+    <aside class="col-md-3">
+      <img src="{{ enquete.urlImagem }}" class="img-responsive">
+    </aside>
+    <aside class="col-md-9">
+      <h2>{{ enquete.titulo}}</h2>
+      <p>{{ enquete.texto}}</p>
+    </aside>
+  </a>
+</div>
+<br>
+<br>
